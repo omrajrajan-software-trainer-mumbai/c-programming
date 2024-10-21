@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1728642133 source:c:\users\administrator\documents\c programming\chap 07\fetching_characters_with_getchar_01\main.c
+	<stdio.h>
+	<stdlib.h>
+

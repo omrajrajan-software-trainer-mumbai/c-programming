@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1728555344 source:c:\users\administrator\documents\c programming\chap 04\miracle_scanf_01\main.c
+	<stdio.h>
+	<stdlib.h>
+

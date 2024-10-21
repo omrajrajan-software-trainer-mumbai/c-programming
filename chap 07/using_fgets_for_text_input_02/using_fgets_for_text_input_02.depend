@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1729246107 source:c:\users\administrator\documents\c programming\chap 07\using_fgets_for_text_input_02\main.c
+	<stdio.h>
+	<stdlib.h>
+
