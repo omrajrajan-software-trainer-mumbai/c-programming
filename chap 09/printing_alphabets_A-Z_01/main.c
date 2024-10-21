@@ -15,7 +15,7 @@ int main() {
     // This statement initializes the loop, states the condition and the update statement
     for(alphabet='A'; alphabet<='Z'; alphabet++)
     {
-        printf("%c %d\n", alphabet, alphabet);
+        printf("%c %d \n", alphabet, alphabet);
     }
     return 0;
 }
