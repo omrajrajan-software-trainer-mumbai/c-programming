@@ -19,7 +19,7 @@ int main() {
         // what is the difference between == and = ?
         if (for_loop_counter % 3 == 0)
         {
-            printf("%d\n", for_loop_counter);
+            printf("%d \n", for_loop_counter);
         }
     }
     return 0;
