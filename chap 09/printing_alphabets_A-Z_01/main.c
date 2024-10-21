@@ -1,5 +1,5 @@
-// Printing alphabets A-Z using for loop in C with CodeBlocks
-// C for Dummies - chap 09 page 114
+// Printing alphabets A-Z and their ASCII code using for loop in C with CodeBlocks
+// C for Dummies - chap 09 page 118
 
 // Preprocessor Directives
 #include <stdio.h>
@@ -7,7 +7,7 @@
 
 //The application starts with the main() function
 int main() {
-    printf("Printing alphabets A-Z using for loop in C with CodeBlocks\n\n");
+    printf("Printing alphabets A-Z and their ASCII code using for loop in C with CodeBlocks\n\n");
 
     // Variable declaration and initialization
     char alphabet;
