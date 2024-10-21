@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1729499934 source:c:\users\administrator\documents\c-programming\chap 09\printing_numbers_divisisble_by_3_01\main.c
+	<stdio.h>
+	<stdlib.h>
+
