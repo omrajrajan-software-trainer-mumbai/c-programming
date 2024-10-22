@@ -18,7 +18,7 @@ int main() {
     while(counter < end_number)
     {
         // Printing the statement
-        printf("Sore shoulder surgery.\n");
+        printf("%d.Sore shoulder surgery.\n", counter+1);
         counter++;
     }
     return 0;
