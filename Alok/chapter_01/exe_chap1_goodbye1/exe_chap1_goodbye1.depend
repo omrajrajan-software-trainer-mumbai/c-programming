@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1724389766 source:c:\c programming\chapter1\exe_chap1_goodbye1\main.c
+	<stdio.h>
+	<stdlib.h>
+
