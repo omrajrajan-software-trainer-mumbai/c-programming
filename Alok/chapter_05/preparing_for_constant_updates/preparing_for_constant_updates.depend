@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1726117246 source:c:\c programming\chapter_05\preparing_for_constant_updates\main.c
+	<stdio.h>
+	<stdlib.h>
+

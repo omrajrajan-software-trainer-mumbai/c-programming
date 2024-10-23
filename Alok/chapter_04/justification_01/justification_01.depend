@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1726808033 source:c:\c programming\chapter_04\justification_01\main.c
+	<stdio.h>
+	<stdlib.h>
+
