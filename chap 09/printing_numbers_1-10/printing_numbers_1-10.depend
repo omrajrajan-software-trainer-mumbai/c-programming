@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1729840745 source:c:\users\administrator\documents\c-programming\chap 09\printing_numbers_1-10\main.c
+	<stdio.h>
+	<stdlib.h>
+

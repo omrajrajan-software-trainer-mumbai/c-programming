@@ -19,7 +19,7 @@ int main() {
     loop=0;
     while(loop < 5)
     {
-        printf("C:\\DOS> ");
+        prompt();
         fgets(input, 31, stdin);
         loop++;
     }
@@ -30,4 +30,5 @@ int main() {
 
 void prompt()
 {
+    printf("C:\\DOS> ");
 }
