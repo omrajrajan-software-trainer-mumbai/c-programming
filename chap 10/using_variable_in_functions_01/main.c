@@ -1,4 +1,4 @@
-// Using local variables in a C programming function with CodeBlocks
+// Using local variables and creating multiple functions in C with CodeBlocks
 // chap - 10 page 135
 
 // Preprocessor directives
@@ -11,7 +11,7 @@ void california();
 
 //The Application starts with the main() function
 int main() {
-    printf("Using local variables in a C programming function with CodeBlocks\n\n");
+    printf("Using local variables and creating multiple functions in C with CodeBlocks\n\n");
 
     //Variable declaration and initialization
     int first_unit;
