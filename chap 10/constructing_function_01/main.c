@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Function Prototype
+// Function Prototype or Declaration
 void prompt();
 
 //The Application starts with the main() function
@@ -26,8 +26,8 @@ int main() {
 
     return 0;
 }
-// Display prompt
 
+// Function Definition: creating a function to display a prompt on to the screen
 void prompt()
 {
     printf("C:\\DOS> ");
