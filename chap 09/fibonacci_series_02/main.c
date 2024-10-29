@@ -10,6 +10,7 @@
 int main()
 {
     printf("Printing Fibonacci Sequence up to n terms using a for loop in C with CodeBlocks\n\n");
+
     //Variable declaration and initialization
     int end_counter, loop_counter, sum;
     int first_number = 0;
@@ -17,7 +18,7 @@ int main()
 
 
     // Taking input from the user and making it more interactive
-    printf("Enter the number you want the fibonacci series upto: ");
+    printf("Enter the number terms you want for the fibonacci series: ");
     scanf("%d", &end_counter);
 
     // Printing the first two numbers
@@ -38,6 +39,7 @@ int main()
         first_number = second_number;
         second_number = sum;
     }
+
     //Indicates that the program executed successfully
     return 0;
 }
