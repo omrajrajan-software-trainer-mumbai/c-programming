@@ -15,23 +15,23 @@ int main()
     //Number of terms in the Fibonacci sequence to print
     int end_counter = 10;
     //Initial two terms of the Fibonacci sequence
-    int first_unit = 0;
-    int second_unit = 1;
+    int first_term = 0;
+    int second_term = 1;
 
      // Prints the first two terms
-     printf("%d %d",first_unit, second_unit);
+     printf("%d %d",first_term, second_term);
 
      // Starts loop from the 3rd term
      for(loop_counter = 3; loop_counter <= end_counter; loop_counter++)
      {
          // Next term is the sum of the previous two
-         next_term = first_unit + second_unit;
+         next_term = first_term + second_term;
          printf(" %d",next_term);
 
-         // Updates second_unit to the first_unit
-         first_unit = second_unit;
-         //Updates new term to the second_unit
-         second_unit = next_term;
+         // Updates second_term to the first_term
+         first_term = second_term;
+         //Updates new term to the second_term
+         second_term = next_term;
      }
      printf("\n");
     //Indicates that the program executed successfully
