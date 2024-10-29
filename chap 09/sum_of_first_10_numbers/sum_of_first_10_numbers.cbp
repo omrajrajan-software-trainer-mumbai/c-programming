@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="sum_of_first_10_numbers" />
+		<Option title="sum_of_first_10_numbers_01" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>

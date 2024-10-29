@@ -1,5 +1,6 @@
 // Finding factorial of a number in C with CodeBlocks
 // chap 09
+// Programmer: Kavya Krishnan
 
 //Preprocessor Directives
 //Includes the standard input/output library for functions like printf()
