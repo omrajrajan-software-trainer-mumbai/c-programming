@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1730272886 source:c:\users\administrator\documents\c-programming\chap 10\function-add_numbers_01\main.c
+	<stdio.h>
+	<stdlib.h>
+
