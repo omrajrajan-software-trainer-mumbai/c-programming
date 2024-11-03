@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1730653642 source:c:\users\kavya\documents\coding_work\c-programming\chap 10\conversion_from_celsius_to_fahrenheit\main.c
+	<stdio.h>
+	<stdlib.h>
+
