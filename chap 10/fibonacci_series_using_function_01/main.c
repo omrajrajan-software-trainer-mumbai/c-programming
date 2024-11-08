@@ -6,8 +6,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Function to print Fibonacci series, 'end_counter' is number of terms
-void fibonacci(int end_counter)
+// Function to print Fibonacci series, 'number_of_terms' is number of terms
+void create_fibonacci_series(int number_of_terms)
 {
     int first_term = 0;
     int second_term = 1;
@@ -17,7 +17,7 @@ void fibonacci(int end_counter)
     printf("Fibonacci series:%d, %d ", first_term, second_term);
 
     //Starts from 3rd term to nth term
-    for(loop_counter = 3; loop_counter <= end_counter; loop_counter++)
+    for(loop_counter = 3; loop_counter <= number_of_terms; loop_counter++)
     {
         //Calculates next term
         next_term = first_term + second_term;
@@ -34,10 +34,13 @@ void fibonacci(int end_counter)
 //The application starts with main()
 int main()
 {
-    printf("Creating Function to Print Fibonacci Series Upto to n terms in C with CodeBlocks\n\n");
+    printf("Creating Function to Print Fibonacci Series Up to to n terms in C with CodeBlocks\n\n");
 
-    //Calls fibonacci with 10 terms
-    fibonacci(10);
+    // Variable Declaration and Initialization
+    int number_of_terms = 10;
+
+    //Calls Fibonacci with 10 terms
+    create_fibonacci_series(number_of_terms);
 
     //Indicates that the program executed successfully
     return 0;

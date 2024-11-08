@@ -7,7 +7,7 @@
 #include <stdlib.h>
 
 //Function to convert Celsius to Fahrenheit
-float convert(float celsius)
+float convert_to_fahrenheit(float celsius)
 {
     // Uses formula F = C * 9/5 + 32
     return (celsius * 9/5) + 32;
@@ -17,8 +17,9 @@ float convert(float celsius)
 int main()
 {
     printf("Creating  Function to convert Celsius to Fahrenheit in C with CodeBlocks\n\n");
-    //Calls convert with 25.0 degrees Celsius
-    float result = convert(25.0);
+
+    //Calls convert_to_fahrenheit() with 25.0 degrees Celsius
+    float result = convert_to_fahrenheit(25.0);
 
     //Prints temperature in Fahrenheit
     printf("Fahrenheit = %.2f\n", result);
