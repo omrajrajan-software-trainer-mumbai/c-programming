@@ -1,5 +1,5 @@
 // Creating a program to find square root of a number in C with CodeBlocks
-// chap 09
+// chap 11
 //Programmer : Kavyakrishnan
 
 //Preprocessor Directives

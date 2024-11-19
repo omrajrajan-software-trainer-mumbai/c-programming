@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1732007820 source:c:\users\kavya\documents\coding_work\c-programming\chap 11\finding_absolute_value_01\main.c
+	<stdio.h>
+	<stdlib.h>
+
