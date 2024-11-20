@@ -18,10 +18,10 @@ int main()
     double second_integer = 6.022E23;
 
     //Displaying the location address of each element
-    printf("Address of 'alphabet' %p\n" &alphabet);
-    printf("Address of 'variable' %p\n" &variable);
-    printf("Address of 'first_integer' %p\n" &first_integer);
-    printf("Address of 'second_integer' %p\n" &second_integer);
+    printf("Address of 'alphabet' %p\n", &alphabet);
+    printf("Address of 'variable' %p\n", &variable);
+    printf("Address of 'first_integer' %p\n", &first_integer);
+    printf("Address of 'second_integer' %p\n", &second_integer);
 
     return 0;
 }
