@@ -1,6 +1,6 @@
 // Creating a program to find the use of pointer variable C with CodeBlocks
 // chap 18
-//Programmer : Kavyakrishnan
+//Programmer : Kavya Krishnan
 
 //Preprocessor Directives
 #include <stdio.h>
@@ -9,7 +9,7 @@
 //The application starts with the main()
 int main()
 {
-    printf("Creating a program to find the use of pointer variable C with CodeBlocks\n\n");
+    printf("Creating a program to set values using pointer variable C with CodeBlocks\n\n");
 
     //Variable declaration and initialization
     char first_letter, second_letter, third_letter;
