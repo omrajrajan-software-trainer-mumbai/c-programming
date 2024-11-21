@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1729325616 source:c:\users\kavya\documents\coding_work\chap 08\guessing_number_01\main.c
+	<stdio.h>
+	<stdlib.h>
+
