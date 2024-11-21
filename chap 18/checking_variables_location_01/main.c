@@ -1,6 +1,6 @@
 // Creating a program to find the location of a variable in C with CodeBlocks
 // chap 18
-//Programmer : Kavyakrishnan
+//Programmer : Kavya Krishnan
 
 //Preprocessor Directives
 #include <stdio.h>
