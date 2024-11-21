@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1732202810 source:c:\users\kavya\documents\coding_work\c-programming\chap 11\random_project_01\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
