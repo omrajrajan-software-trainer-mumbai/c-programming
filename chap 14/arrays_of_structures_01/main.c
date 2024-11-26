@@ -6,25 +6,27 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define MIN_VALUE 0
+#define MAX_VALUE 6
+
 //The application starts with the main()
-int main()
-{
+int main() {
     printf("Creating a program to declare an array of structures in C with CodeBlocks\n\n");
 
-    // Declaring and initializing a structure
-    struct scores
-    {
+    // Declaring and initializing a structure user defined data-type
+    struct scores {
         // Initializing an structure array
         char name[32];
         int score;
     };
-    struct scores player[4];
+
+    // Declaration and Initialization of Variables
+    struct scores player[MAX_VALUE];
     int loop_counter;
 
     // Initiating a for loop
-    for(loop_counter = 0; loop_counter < 4; loop_counter++)
-    {
-        // Inputing multiple values from the user using scan()
+    for(loop_counter = MIN_VALUE; loop_counter < MAX_VALUE; loop_counter++) {
+        // Inputing multiple values from the user using a for-loop and scanf()
         printf("Enter player %d: ", loop_counter + 1);
         scanf("%s", player[loop_counter].name);
         printf("Enter their score: ");
@@ -35,10 +37,14 @@ int main()
     puts("\nPlayer Info");
     printf("#\tName\tScore\n");
 
-    // Initiating a for loop
-    for(loop_counter = 0; loop_counter < 4; loop_counter++)
-    {
-        printf("%d\t%s\t%5d\n", loop_counter + 1, player[loop_counter].name, player[loop_counter].score);
+    // Initiating a for-loop
+    for(loop_counter = MIN_VALUE; loop_counter < MAX_VALUE; loop_counter++) {
+        printf(
+            "%d\t%s\t%5d\n",
+            loop_counter + 1,
+            player[loop_counter].name,
+            player[loop_counter].score
+        );
     }
 
     return 0;
