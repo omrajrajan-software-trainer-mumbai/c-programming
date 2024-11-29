@@ -17,7 +17,8 @@ void create_fibonacci_series(int first_term, int second_term, int number_of_term
     printf("Fibonacci series:%d, %d ", first_term, second_term);
 
     //Starts from 3rd term to nth term
-    for(loop_counter = LOOP_INITIAL_VALUE; loop_counter <= number_of_terms; loop_counter++) {
+    for(loop_counter = LOOP_INITIAL_VALUE; loop_counter <= number_of_terms; loop_counter++)
+    {
         //Calculates next term
         next_term = first_term + second_term;
         // Prints next term

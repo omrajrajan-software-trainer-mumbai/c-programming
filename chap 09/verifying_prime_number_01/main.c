@@ -1,4 +1,4 @@
-// Verifying if a number_to_check is prime number_to_check or not using for loop and break in C with CodeBlocks
+// Verifying if a number is a prime number or not using for loop and break in C with CodeBlocks
 // chap 09
 
 //Preprocessor Directives
@@ -9,21 +9,20 @@
 //The application starts with the main()
 int main()
 {
-    printf("Verifying if a number_to_check is prime number_to_check or not using for loop and break in C with CodeBlocks\n\n");
+    printf("Verifying if a number is prime number or not using for loop and break in C with CodeBlocks\n\n");
 
     // Variable declaration and initialization
     int loop_counter;
     // Number to check if it is prime
     int number_to_check = 29;
     int mid_of_number_to_check = number_to_check / 2 ;
-    // Boolean variable to indicate if the number_to_check is prime (1 means true)
+    // Boolean variable to indicate if the 'number_to_check' is prime (1 means true)
     int isPrime = 1;
 
     //Loop from 2 to half of number_to_check
     for (loop_counter = 2; loop_counter < mid_of_number_to_check; loop_counter++)
     {
-        printf("Processing the loop: no. %d\n", loop_counter);
-        // Checks if the number_to_check is divisible by the loop_counter
+        // Checks if the number is divisible by the loop_counter
         if(number_to_check % loop_counter == 0)
         {
             //Sets isPrime to 0 (false) if number_to_check is divisible
@@ -36,10 +35,10 @@ int main()
     // Displaying the output
     if (isPrime)
     {
-        printf("%d is a prime number_to_check", number_to_check);
+        printf("%d is a prime number", number_to_check);
     }else{
 
-        printf("%d is not prime number_to_check", number_to_check);
+        printf("%d is not prime number", number_to_check);
 
     }
     //Indicates that the program executed successfully
