@@ -6,7 +6,7 @@
 #include <stdlib.h>
 
 //Assigning the value 5 to the variable secret and defining it
-#define secret 5
+#define SECRET 5
 
 // The code begins with main()
 int main()
@@ -21,13 +21,13 @@ int main()
     scanf("%d", &guess);
 
     //Checking the condition
-    if(guess == secret){
+    if(guess == SECRET){
         //This statement will be executed if the above condition is right
         printf("\nYou guessed it right!!!");
         }
 
     //Checking the alternative condition
-    if(guess != secret){
+    if(guess != SECRET){
         //This statement will be executed if the above condition is right
         printf("WRONG!!");
     }

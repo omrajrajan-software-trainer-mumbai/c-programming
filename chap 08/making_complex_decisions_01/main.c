@@ -17,7 +17,6 @@ int main()
     number_2 = number_1 - 2;
 
     //Checking a condition using if-else statement
-
     if (number_1 > number_2)
     {
     //This line will be executed if the above condition is true
@@ -26,7 +25,7 @@ int main()
     } else {
 
     //This line will be executed if the above condition is not true
-        printf("%d is lessr than %d", number_1, number_2);
+        printf("%d is lesser than %d", number_1, number_2);
     }
 
     return 0;

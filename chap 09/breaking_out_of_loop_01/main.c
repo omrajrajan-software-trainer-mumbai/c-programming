@@ -23,8 +23,11 @@ int main() {
 
         // Using if and break to discontinue the loop
         if(counter > 50)
+        {
             // break exits from the current loop
             break;
+        }
+
     }
     return 0;
 }

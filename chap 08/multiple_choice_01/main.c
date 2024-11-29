@@ -17,9 +17,8 @@ int main()
     printf("Enter the error code(1-3): ");
     scanf("%d", &code);
 
-    //The switch statement begins from here
-    switch (code) //The type of expression will be written within the parentheses
-
+    // The expression will be written within the parentheses
+    switch (code)
     {
         case 1:
             printf("\nDrive Fault, not your fault.");

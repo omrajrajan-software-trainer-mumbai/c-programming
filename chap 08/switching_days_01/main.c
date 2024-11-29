@@ -16,9 +16,8 @@ int main()
     printf("Enter a number(1-7) to choose a day of the week:");
     scanf("%d", &day);
 
-    //The switch statement begins from here
-    switch (day) //The type of expression will be written within the parentheses
-
+    // The type of expression will be written within the parentheses
+    switch (day)
     {
         case 1:
             printf("Sunday");

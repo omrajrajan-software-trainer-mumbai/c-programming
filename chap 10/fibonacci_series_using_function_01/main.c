@@ -6,19 +6,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define LOOP_INITIAL_VALUE 3
+
 // Function to print Fibonacci series, 'number_of_terms' is number of terms
-void create_fibonacci_series(int number_of_terms)
-{
-    int first_term = 0;
-    int second_term = 1;
+void create_fibonacci_series(int first_term, int second_term, int number_of_terms) {
+
     int next_term, loop_counter;
 
     //Prints first two terms
     printf("Fibonacci series:%d, %d ", first_term, second_term);
 
     //Starts from 3rd term to nth term
-    for(loop_counter = 3; loop_counter <= number_of_terms; loop_counter++)
-    {
+    for(loop_counter = LOOP_INITIAL_VALUE; loop_counter <= number_of_terms; loop_counter++) {
         //Calculates next term
         next_term = first_term + second_term;
         // Prints next term
@@ -32,16 +31,17 @@ void create_fibonacci_series(int number_of_terms)
 }
 
 //The application starts with main()
-int main()
-{
+int main() {
     printf("Creating Function to Print Fibonacci Series Up to to n terms in C with CodeBlocks\n\n");
 
     // Variable Declaration and Initialization
     int number_of_terms = 10;
+    int first_term = 0;
+    int second_term = 1;
 
-    //Calls Fibonacci with 10 terms
-    create_fibonacci_series(number_of_terms);
+    // Calls Fibonacci with 10 terms
+    create_fibonacci_series(first_term, second_term, number_of_terms);
 
-    //Indicates that the program executed successfully
+    // Indicates that the program executed successfully
     return 0;
 }

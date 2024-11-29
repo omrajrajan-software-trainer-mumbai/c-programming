@@ -17,10 +17,12 @@ int main() {
     {
         // Verifying if the number is divisible by 3 using modulus operator
         // what is the difference between == and = ?
-        if (for_loop_counter % 3 == 0)
+        if (for_loop_counter % 3 != 0)
         {
-            printf("%d \n", for_loop_counter);
+            // continue skips the current iteration
+            continue;
         }
+        printf("%d \n", for_loop_counter);
     }
     return 0;
 }

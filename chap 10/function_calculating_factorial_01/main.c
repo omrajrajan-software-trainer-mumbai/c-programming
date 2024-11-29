@@ -11,14 +11,14 @@
 int factorial(int number)
 {
     // Base condition to end recursion when 'number' is 0
-    // Using if condition
+    // Using if condition to check if the base condition has been met
     if(number == 0)
     {
         //Returns 1 as factorial of 0 is 1
         return 1;
     }else{
-        //Recursively calls factorial with number-1
-        return number * factorial(number - 1);
+        //  Recursively calls (incremental or decremental) factorial with number-1
+        return number * factorial(number);
     }
 }
 //The application starts with main ()

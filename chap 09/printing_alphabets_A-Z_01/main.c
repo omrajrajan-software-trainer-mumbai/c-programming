@@ -13,9 +13,10 @@ int main() {
     char alphabet;
 
     // This statement initializes the loop, states the condition and the update statement
-    for(alphabet='A'; alphabet<='Z'; alphabet++)
-    {
+    for(alphabet='A'; alphabet<='Z'; alphabet++) {
+        // prints the numeric value of the letter as well as its corresponding ASCII code
         printf("%c %d \n", alphabet, alphabet);
     }
+
     return 0;
 }

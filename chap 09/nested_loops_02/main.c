@@ -15,17 +15,22 @@ int main() {
     second_value = 6;
 
     // Using for loop
-    for(first_counter = first_value; first_counter < second_value; first_counter++)
-    {
+    for(first_counter = first_value; first_counter < second_value; first_counter++) {
         // A loop within a loop
-        for(second_counter = first_value; second_counter < second_value; second_counter++)
-        {
+        for(second_counter = first_value; second_counter < second_value; second_counter++) {
             //Printing the statement
             printf("*");
         }
         printf("\n");
     }
-
+    /*
+    output
+    *****
+    *****
+    *****
+    *****
+    *****
+    */
 
     return 0;
 }
